@@ -1,10 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta charset="utf-8"><title>Product Data Health</title></head>
+<head>
+  <meta charset="utf-8">
+  <title>Product Data Health for Odoo 19</title>
+</head>
 <body>
-<h1>Product Data Health</h1>
-<p>Find missing identifiers, non-positive sale prices, placeholder categories and missing images in your Odoo 19 catalog.</p>
-<p>Managers choose a company and run a bounded scan. Staff review the current issue list and open products in Odoo. All checks are advisory and configurable.</p>
-<p>Requires only the Product module. Licensed under LGPL-3.</p>
+  <section class="container">
+    <h1>Product Data Health</h1>
+    <p class="lead">Find missing identifiers, non-positive prices, placeholder categories, and images in your Odoo product catalog.</p>
+    <p>Free, open-source Odoo 19 addon (LGPL-3). Requires the standard <code>product</code> module.</p>
+    <h2>What it does</h2>
+    <ul>
+      <li>Scan active, saleable product variants in batches of up to 200.</li>
+      <li>Review advisory issues without changing products, prices, or taxes.</li>
+      <li>Configure checks by company and category; export stable issue codes to CSV.</li>
+      <li>Use Polish or English screens, guides, and demo data.</li>
+    </ul>
+    <h2>See it in Odoo</h2>
+    <p>Open Data Health → Scans, run a scan, and review Current Issues.</p>
+    <img class="img-fluid" src="main_screenshot.png" width="1440" height="900" alt="Completed Product Data Health scan in Odoo 19, showing 48 products checked and 44 advisory issues">
+    <h2>Compatibility and scope</h2>
+    <p>Tested on Odoo 19 Community. Enterprise compatibility, a concurrent-scan stress test, and SQL query counts remain unverified.</p>
+  </section>
 </body>
 </html>
